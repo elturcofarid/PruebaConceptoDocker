@@ -113,3 +113,18 @@ docker rm $(docker ps -a -q)
 eliminar todas las imagenes:
 
 docker rmi $(docker images -a -q)
+
+
+
+=================
+eureka
+docker build -t servicio-eureka:v1 .
+docker run -p 8761:8761 --name servicio-eureka --network springcloud servicio-eureka:v1
+
+
+
+=================
+redis
+docker build -t servicio-redis:v1 .
+docker run --name servicio-redis --network springcloud servicio-redis:v1
+
