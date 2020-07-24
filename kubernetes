@@ -1,0 +1,7 @@
+
+
+- error cuando se intenta configurar el forward.
+  - el puerto 10250 no esta disponible instalar firewall
+    https://computingforgeeks.com/install-and-use-firewalld-on-ubuntu-18-04-ubuntu-16-04/
+    
+  
